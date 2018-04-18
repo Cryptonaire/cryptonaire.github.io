@@ -176,37 +176,49 @@ body,html {
 }
  .number {
    background:#d82129;
-   padding:1.5rem;
-   margin-right:30px;
+   float:left;
+   margin-right:10px;
+   line-height:60px;
+   padding:0 1.5rem;
+   font-family:Roboto Condensed;
+   color:#fff;
+}
+
+.listItem {
+  min-height:60px;
+  font-family:Roboto Condensed;
+  color:#fff;
+  font-size:2.2rem;
+  background: #282731;
+  width:100%;
+  margin-bottom:10px;
+}
+
+.innerList {
+  clear:both;
+  display:none;
+  background:rgba(0,0,0,0.1);
+  font-size:1.8rem;
+  padding:2rem;
 }
 
 .program .lnr {
   float:right;
   font-size:3.2rem;
   color:red;
-}
-
-#expand {
-  margin:0px;
-  float:right;
-  border:0px;
-  color:#fff;
-  font-family:Roboto Condensed;
-  font-size:1.8rem;
-  height:35px;
-  padding:10px;
-  padding-top:0px;
-  background:#d82129;
-
+  line-height:60px;
+  cursor:pointer;
+  padding:0 1rem;
 }
 
  .program h5 {
-     padding:1.2rem;
-     font-family:Roboto Condensed;
-     color:#fff;
-     font-size:2.2rem;
-     background: #282731;
-}
+   line-height:60px;
+   float:left;
+   padding:0 1rem;
+   margin:0px;
+ }
+
+
  .start {
      background:#d82129;
      padding:10rem;
@@ -302,7 +314,7 @@ div.section:nth-child(11) {
 }
 
 .challenges {
-  padding:10rem;
+  padding:10rem 0;
   background:url(resources/siderav.png);
   background-size:cover;
 }
@@ -327,7 +339,9 @@ div.section:nth-child(11) {
 }
 
 .challenges .container {
-  padding-bottom:50px;
+    max-width:1300px !important;
+    width:100%;
+    padding: 8rem 0;
 }
 
 .challenges h2 {
@@ -337,7 +351,6 @@ div.section:nth-child(11) {
   text-align:center;
   font-size:3rem;
   position:relative;
-  top:100px;
   font-family:Roboto Condensed;
 }
 
