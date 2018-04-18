@@ -479,6 +479,10 @@ height: 100%;
 }
 
 .footer {
+  background:#222;
+}
+
+.footer {
   font-family:Roboto Condensed;
   padding:4rem 0;
 }
@@ -486,8 +490,10 @@ height: 100%;
 .footer h5 {
   margin:0px;
   font-size:20px;
+  color:#eee;
 }
 
 .footer p {
   margin:0px;
+  color:#eee;
 }
