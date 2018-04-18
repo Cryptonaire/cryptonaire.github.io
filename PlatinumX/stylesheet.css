@@ -192,6 +192,12 @@ body,html {
   background: #282731;
   width:100%;
   margin-bottom:10px;
+  transition:all 0.2s ease-in-out;
+  cursor:pointer;
+}
+
+.listItem:hover {
+  background: #1f1e29;
 }
 
 .innerList {
@@ -205,9 +211,8 @@ body,html {
 .program .lnr {
   float:right;
   font-size:3.2rem;
-  color:red;
+  color: #49465f;
   line-height:60px;
-  cursor:pointer;
   padding:0 1rem;
 }
 
