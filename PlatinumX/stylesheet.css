@@ -497,3 +497,20 @@ height: 100%;
   margin:0px;
   color:#eee;
 }
+
+@media screen and (max-width: 1366px) {
+
+  .header .row h1 {
+    font-size:11rem;
+  }
+
+  .conclusion p {
+    font-size:2.5rem;
+  }
+  #ravGreyscale {
+    background-position:right;
+  }
+
+
+
+}
