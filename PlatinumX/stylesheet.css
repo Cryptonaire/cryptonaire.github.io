@@ -99,6 +99,7 @@ body,html {
      padding:15rem 0;
      margin-top:-180px;
      padding-top:calc(10rem + 150px);
+     padding-bottom:8rem;
 }
  .limited .container {
      width:90%;
@@ -410,26 +411,34 @@ a {
   color: red !important;
 }
 
-.conclusion p {
-  min-height:calc(480px - 18rem);
-  padding:9rem;
-  background:#d82129; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.conclusion .column {
+  background:url(resources/adressrav.png);
+  background-size:cover;
+  height:60rem;
+}
+
+.concTainer {
+  float:left;
+  height:100%;
+  min-width:20%;
+  max-width: 40%;
+  padding:0 5rem;
+  background:red;
+}
+
+.concTainer p {
+  position:relative;
+  top:50%;
+  font-size:2.8rem;
   font-family:Roboto Condensed;
   color:#fff;
-  font-size:3rem;
+  transform:translateY(-50%);
 }
 
 .conclusion .column, .columns {
   margin:0px;
 }
-
-#ravGreyscale  {
-  height:480px;
-  z-index:-2;
-  background:url(resources/adressrav.png);
-  background-size:cover;
-}
-
 
 .conclusion {
   background:#222;
@@ -507,9 +516,6 @@ height: 100%;
     font-size:11rem;
   }
 
-  .conclusion p {
-    font-size:2.5rem;
-  }
   #ravGreyscale {
     background-position:right;
   }
