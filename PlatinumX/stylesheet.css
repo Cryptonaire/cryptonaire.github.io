@@ -31,7 +31,7 @@ body,html {
 
 .header h4 {
   margin:0px auto;
-  width:960px;
+  width:50%;
 }
 
 
@@ -286,7 +286,7 @@ div.section:nth-child(11) {
 
 .button-contact {
   border:3px solid #d82129 !important;
-  padding:1rem 5rem;
+  padding:1rem 0rem;
   width:100%;
   height:auto !important;
   font-family:Roboto Condensed;
@@ -518,5 +518,22 @@ height: 100%;
 
   #ravGreyscale {
     background-position:right;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .challenges .one-half.column {
+    width:100%;
+}
+  .challenges .column, .columns {
+    margin-left:0px;
+  }
+
+  .challenges .column {
+    height:auto;
+  }
+
   }
 }
