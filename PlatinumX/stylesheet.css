@@ -510,6 +510,10 @@ height: 100%;
   color:#eee;
 }
 
+.mobile {
+  display:none;
+}
+
 @media screen and (max-width: 1600px) {
 
   .header .row h1 {
@@ -524,16 +528,23 @@ height: 100%;
 
 @media screen and (max-width: 1200px) {
 
-  .challenges .one-half.column {
-    width:100%;
-}
-  .challenges .column, .columns {
-    margin-left:0px;
+  .mobile {
+    display:block;
   }
 
+  .desktop {
+    display:none;
+  }
   .challenges .column {
     height:auto;
   }
 
+  .challenges .column, .columns {
+    margin-left:0px;
   }
+
+  .challenges .container {
+    padding: 3rem 3rem;
+  }
+
 }
