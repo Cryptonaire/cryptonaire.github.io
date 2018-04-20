@@ -95,3 +95,7 @@ ul.tabs li.current{
 .tab-content.current{
 	display: inherit;
 }
+
+#tab-2 {
+	background: #d82129;
+}
