@@ -545,6 +545,11 @@ height: 100%;
 
   .challenges .container {
     padding: 3rem 3rem;
+    text-align:center;
+  }
+
+  .challenges h2 {
+    text-align:center !important;
   }
 
 }
