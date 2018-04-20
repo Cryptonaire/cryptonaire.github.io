@@ -123,7 +123,7 @@ body,html {
      padding:20rem 0;
      background:url(resources/canary-background.png);
      background-size:cover;
-     margin-top:-60px;
+     margin-top:-150px;
 }
  #introductionMain h1 {
      color:#fff;
@@ -518,19 +518,5 @@ height: 100%;
 
   #ravGreyscale {
     background-position:right;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #introductionMain {
-    margin-top: -120px;
-  }
-
-  .start {
-    margin-top:-100px;
-  }
-
-  .program {
-    padding-bottom:10rem;
   }
 }
