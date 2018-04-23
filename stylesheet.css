@@ -1,12 +1,16 @@
 body, html {
-  background: linear-gradient(to right, #da4453, #89216b);
-  font-family:Source Sans Pro !important;
+  height:100%;
+  font-family:Rubik;
+  margin:0px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 h1 {
   text-align:center;
   color:#fff;
   margin:0px;
+  font-weight:400;
+  margin-top:20px;
   font-size:73px;
 }
 
@@ -23,6 +27,11 @@ a {
   transition:all 0.2s ease-in-out;
   outline:none !important;
   text-decoration: none;
+  color: #ae65cc;
+}
+
+a:hover {
+  color: #9b59b6;
 }
 
 p {
@@ -30,19 +39,28 @@ p {
   text-align:left;
     font-weight:300;
     margin:0px;
-    margin-bottom:15px;
 }
 
 p:last-child  {
   margin:0px;
 }
 
-span {
-  background:#444;
-  padding:0.7rem 2rem;
+.tab-content span {
+  background:#555;
+  padding:0.7rem 1.5rem;
   border-radius:3px;
   color:#fff;
   margin-right:10px;
+}
+
+#logo {
+  font-size: 130px;
+  background:#fff;
+  color: #b469d2;
+  padding:10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 .container {
@@ -53,6 +71,7 @@ span {
 
 .row {
     padding:10rem;
+    padding-bottom:5rem;
 }
 
 ul.tabs{
@@ -81,6 +100,7 @@ ul.tabs li{
 }
 
 ul.tabs li.current{
+  transition:all 0.2s ease-in-out;
   background-color: #ffffff;
 }
 
