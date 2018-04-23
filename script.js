@@ -11,6 +11,3 @@ $(document).ready(function(){
 	})
 
 })
-
-#url = window.location.href;
-#alert(url.split('?origin=')[1]);
