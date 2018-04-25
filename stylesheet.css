@@ -4,6 +4,16 @@ body, html {
   margin:0px;
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
+.complete {
+  float:right;
+  background:#2ecc71;
+  padding:5px;
+  margin-top:-5px;
+  color:#fff;
+  border-radius:3px;
+  font-size:20px;
+}
+
 
 h1 {
   text-align:center;
@@ -45,7 +55,7 @@ p:last-child  {
   margin:0px;
 }
 
-.tab-content span {
+.number {
   background:#555;
   padding:0.7rem 1.5rem;
   border-radius:3px;
