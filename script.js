@@ -11,3 +11,10 @@ $(document).ready(function(){
 	})
 
 })
+
+$(document).ready(function() {
+    var password = prompt("Page is password protected.");
+    if (password == "simple") {
+			$("body").show()
+		}
+});
