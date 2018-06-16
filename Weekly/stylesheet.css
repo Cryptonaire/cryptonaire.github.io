@@ -143,8 +143,14 @@ img {
 .subscribe_section .vertical_container {
     padding:5rem 0;
     text-align: center;
+    margin:0px auto;
+    width:80%;
 }
 
 .subscribe_section .vertical_container h1,p {
     font-family:Open Sans;
+}
+
+.forms_countainer {
+    width:60%;
 }
