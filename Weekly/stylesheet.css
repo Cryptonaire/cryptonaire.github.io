@@ -191,4 +191,8 @@ iframe {
     .about_section img {
         max-width:100%;
     }
+
+    .offer_section {
+        padding-bottm:1rem 0;
+    }
 }
