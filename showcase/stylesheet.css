@@ -1,0 +1,208 @@
+p, html, body { /* Remove those pesky borders*/
+    margin: 0 !important;
+    padding: 0;
+}
+.left-align {text-align:left;}
+.right-align {text-align: right;}
+#red {color:red;}
+img {max-width: 100%; height: auto;}
+
+* {
+    font-family:Open Sans;
+}
+
+/* -------------------------------------- MAIN CSS -------------------------------------- */
+
+.topbar_section {
+    background:#14171a;
+    height:auto;
+}
+
+.topbar_section .row p {
+    color:#fff;
+    padding:10px 0;
+}
+
+.topbar_section .row {
+    width:90%;
+    margin:0px auto;
+}
+
+
+@media (max-width: 800px) {
+    .topbar_section .row p {
+        text-align:center;
+        padding:0;
+    }
+
+    .topbar_section .row {
+        padding:5px;
+    }
+}
+
+.header_section {
+    padding:3rem 0;
+    background:url("header-background.png");
+    background-size:cover;
+    text-align: center;
+    padding-bottom:0;
+}
+
+.header_section .container h1,h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color:#eee;
+    margin: 0px;
+}
+
+.header_section .header_stats {
+    margin-top:20px;
+    background:rgba(0, 0, 0, 0.4);
+}
+
+.header_section .header_stats .bold_item {
+    background:rgba(0, 0, 0, 0.3);
+}
+
+.header_stats h4 {
+    margin: 0px;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.header_section .header_stats .row h5 {
+    line-height:100px;
+    margin: 0px;
+    color:#eee;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .header_section .header_stats .row h5 {
+        padding:30px;
+        line-height:30px;
+    }
+    .header_stats h4 {
+        padding:30px;
+        line-height:50px;
+    }
+}
+
+.header_section .container p {
+    color:#fff;
+    font-family: open sans;
+}
+
+.header_bottom {
+    padding: 2rem 0;
+}
+
+.about_section {
+    padding:8rem 0 4rem 0;
+    background: url("about-background.png");
+    background-size: cover;
+    text-align: justify;
+}
+
+.about_section h4 {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+
+.about_section, .offer_section img {
+    max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .about_section img {
+        max-width: 100%;
+        margin-top:50px
+    }
+}
+
+.offer_section {
+    padding: 10rem 0;
+    background:url(texture.png);
+    background-position:
+}
+
+.offer_section h4 {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+
+.offer_section ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.offer_section li {
+    font-size: 2rem;
+    margin: 0px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.offer_section .container {
+    max-width: 1100px;
+}
+
+/* TEMPORARY FIX */
+
+.offer_section .container .row  {
+    margin:0px auto;
+    width:70%;
+}
+
+/* ----------------- */
+
+.footer_section {
+    text-align: center;
+    background: #191919;
+    height:50px;
+    color:#fff;
+}
+
+.footer_section .column p {
+    line-height: 50px;
+    background: #191919;
+}
+
+i {
+    font-size:20px !important;
+    color:#222;
+    background:#fff;
+    padding:5px;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+    border-radius:40px;
+}
+
+.footer_section .one-third.column {
+    height:50px;
+    background: #191919;
+}
+
+iframe {
+    border:3px solid #999;
+    max-width: 100%;
+}
+
+
+.about_section img {
+    max-width:140%;
+}
+
+@media (max-width: 1200px) {
+    .about_section img {
+        max-width:100%;
+    }
+
+    .offer_section {
+        padding-bottom:1rem 0;
+    }
+}
