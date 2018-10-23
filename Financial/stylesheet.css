@@ -103,9 +103,10 @@ body,html {
     margin-top:30px;
     color:#fff;
     font-family:Open Sans;
-    font-weight: 600;
+    font-weight: 800;
     padding: 5px 10px;
     
+    letter-spacing: 2px;
     font-size:20px;
 }
 
@@ -119,15 +120,16 @@ body,html {
 .overlay_inner h1 {
     font-family:Oswald;
     color:#fff;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 8rem;
 }
 
 .overlay_inner h4 {
     font-family:Oswald;
     color:#fff;
-    font-weight: 200;
-    font-size:25px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size:23px;
 }
 
 .header_navigation {
@@ -198,31 +200,39 @@ body,html {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.notes_section .quicknote_container #top_note {
-    position: absolute;
-    top:-30px;
-    left:50%; 
-    transform:translateX(-50%) rotate(-4deg);
-    background-image: url(tape.png);
-    padding: 20px 40px;
-    
-    font-family: Open Sans;
+.notes_section img {
+    position:relative;
+    top:-50px;
+}
+
+.notes_section .quicknote_container h1 {
+    font-family:Open Sans;
+    font-weight: 700;
+    font-style: italic;
+    position:relative;
+    margin-top:-40px;
     color: #d82129;
     
 }
 
-.notes_section .quicknote_container h1 {
-    margin-top:10%;
-    font-family:Open Sans;
-    font-weight: 700;
-    font-style: italic;
-    color: #d82129;
-    
+.notes_section p {
+    margin-left:30px;
+}
+
+.notes_section .container {
+    max-width: 1180px;
 }
 
 .notes_section .quicknote_container h5 {
     font-family:Open Sans;
-    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.notes_section .quicknote_container h6 {
+    position:relative;
+    margin-top:0px;
+    margin-bottom:0px;
     color:#444;
 }
 
@@ -232,7 +242,7 @@ body,html {
     margin-top:10px;
     margin-bottom: 10px;
     color:#fff;
-    padding: 5px 30px;
+    padding: 5px 80px;
     max-height: auto;
     height: auto;
     
@@ -267,16 +277,14 @@ body,html {
     border-radius: 20px;
 }
 
-.information_section img {
-    height: 300px;
-}
+
 
 .information_section .information_parent_container h1 {
     text-align: center;
     font-size:40px;
     font-family:Open Sans;
     letter-spacing: 3px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom:30px !important;
 }
 
@@ -290,6 +298,8 @@ body,html {
 .information_section .information_parent_container li {
     font-family:Open Sans;
     font-weight: 400;
+    text-align: justify;
+    margin-bottom:10px;
 }
 
 .information_section .information_parent_container ul {
@@ -309,23 +319,29 @@ body,html {
 .products_section h1 {
     color:#fff;
     font-family:Open Sans;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 38px;
     text-align: center;
 }
 
 .products_section ul {
-    margin-top:30px;
+    margin-left:30px;
+}
+
+.products_section .column {
+    margin-left:30px;
 }
 
 .products_section li {
     color:#fff;
     font-family:Open Sans;
+    margin: 20px;
+    margin-left: 0px;
 }
 
 .products_section img {
-    height: 350px;
-    margin-top:30px;
+    height: 240px;
+    margin-top: 10px;
 }
 
 .testimonials_section {
@@ -395,7 +411,7 @@ body,html {
 }
 
 .contact_section {
-    padding: 10rem 0;
+    padding: 5rem 0;
     background-size: cover;
     background-image: url(contact_background.png);
 }
@@ -408,7 +424,9 @@ body,html {
     color: #fff;
     text-align: center;
     font-family:Open Sans;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom:35px !important;
 }
 
 .contact_section p {
@@ -429,6 +447,7 @@ body,html {
     font-family: Open Sans;
     font-weight: bold;
     font-size: 18px;
+    margin-top:10px;
 }
 
 .contact_button:hover {
@@ -501,7 +520,11 @@ body,html {
     padding: 0px;
 }
 
-.social_button:hover,:active {
+.social_button:hover {
+    color:#fff;
+}
+
+.social_button:active {
     color:#fff;
 }
 
@@ -513,4 +536,16 @@ body,html {
 img {
     max-width: 100%;
     height: auto;
+}
+h1 {
+    
+}
+
+.products_section .container {
+    width:85%;
+    max-width: 1200px;
+}
+
+.products_section li {
+    font-weight: 600;
 }
