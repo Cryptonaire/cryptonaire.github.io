@@ -46,6 +46,26 @@
     }
 
 
+    
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .information_section img {
+        display:none;
+    }
+    
+    .information_section .nine.columns {
+        width:100%;
+    }
+    
+    .products_section img {
+        margin-left:0px;
+    }
+    
+    .products_section .column {
+        margin-left:0px !important;
+    }
 }
 
 h1,h2,h3,h4,h5 {
