@@ -152,8 +152,10 @@ body {
     .column, .columns {
     width: 100% !important;
     float: left;
+        margin-left:0% !important;
     box-sizing: border-box;
 }
     .form {
-        width:100%;
+      
+        width:calc(100% - 40px);
 }
