@@ -154,4 +154,6 @@ body {
     float: left;
     box-sizing: border-box;
 }
+    .form {
+        width:100%;
 }
