@@ -16,9 +16,11 @@ body {
 
 .main_header {
     width:100%;
-    height:499px;
+    height:560px;
     background:url(resources/Nirav_Shah_Dubai_Header_2.jpg);
+    background-size: cover;
     background-position: center;
+    background-size: 100%;
 }
 
 .container {
@@ -57,7 +59,7 @@ body {
     text-align: justify;
 }
 
-.form {
+.form { 
     padding: 20px;
     padding-left:40px;
     padding-right:40px;
