@@ -1,0 +1,149 @@
+body,html {
+    width:100%;
+    height:100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:url(resources/sidebar_background.jpg.png);
+    background-size:auto;
+    height:100%;
+}
+
+.main_header {
+    width:100%;
+    height:700px;
+    background:url(resources/Nirav_Shah_Dubai_Header_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width:90%!important;
+    max-width:1280px!important;
+    top:70px;
+}
+
+
+#heroheader_title {
+    color:#fff;
+    font-family:Rubik;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#heroheader_title:after {
+    position:absolute;
+    margin-top:70px;
+    left:0;
+    content:"";
+    width:100px;
+    height:7px;
+    border-radius: 4px;
+    background:#d82129;
+
+}
+
+
+#heroheader_description {
+    font-family: Rubik;
+    margin-top:50px;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.form {
+    padding: 20px;
+    padding-left:40px;
+    padding-right:40px;
+    height:420px;
+    width:400px;
+    background: #fff;
+    
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius: 4px;
+    
+}
+
+.form h3 {
+    text-align: center;
+    font-family: Rubik;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color:#333;
+    margin-top:20px;
+    
+}
+
+.form_input {
+    border: 1.5px solid #dfdfdf;
+    background: #f9f9f9;
+    width:100%;
+    border-radius: 2px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-bottom:15px;
+}
+
+.form_button {
+    width:100%;
+    position:relative;
+    bottom: 0;
+    background:#333;
+    border-radius: 3px;
+    color:#fff;
+    height: auto;
+    background:#d82129;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    box-shadow: none;
+    border:0px;
+    
+    margin-top:10%;
+}
+
+.form_input p {
+    margin: 0px;
+    color:#999;
+    font-family: Rubik;
+    font-weight:300;
+    position:relative;
+    font-size: 15px;
+    margin-left:10px;
+}
+
+.form_button:hover {
+    color:#fff;
+    border: 0px;
+    height: auto;
+}
+
+.form_button:focus {
+    color: #fff;
+}
+
+.bottom_continue {
+    position:absolute;
+    bottom:300px;
+    right:600px;
+    border:0px;
+    border-radius:12px;
+    background:rgba(0,0,0,0.4);
+    color:#fff;
+    font-family:Rubik;
+}
+
+.bottom_continue:hover {
+    color:gold;
+}
